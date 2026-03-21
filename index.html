@@ -56,6 +56,25 @@
     </style>
   </head>
   <body>
+    <button
+      id="noti-btn"
+      style="
+        position: absolute;
+        z-index: 100;
+        top: 10px;
+        left: 10px;
+        padding: 10px;
+        background: white;
+        border: none;
+        border-radius: 4px;
+        font-family: sans-serif;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      "
+    >
+      Allow Noti
+    </button>
     <div id="map"></div>
     <script>
       const map = new maplibregl.Map({
@@ -134,7 +153,9 @@
         document.body.removeEventListener("touchstart", onFirstInteraction);
       }
       document.body.addEventListener("click", onFirstInteraction);
-      document.body.addEventListener("touchstart", onFirstInteraction, { passive: true });
+      document.body.addEventListener("touchstart", onFirstInteraction, {
+        passive: true,
+      });
 
       let geoPopup = null; // track auto-opened popup
 
@@ -279,7 +300,7 @@
             }
           });
 
-          const maxRadius = 15;
+          const maxRadius = 50;
           if (closestIdx >= 0 && minDistance <= maxRadius) {
             const closestFeature = data.features[closestIdx];
             const name = closestFeature.properties.name || "Unnamed";
@@ -294,8 +315,11 @@
                 "Notification" in window &&
                 Notification.permission === "granted"
               ) {
-                new Notification(`Closest: ${name}`, {
-                  body: `You are walking on ${name}`,
+                navigator.serviceWorker.ready.then((registration) => {
+                  registration.showNotification(`Closest: ${name}`, {
+                    body: `You are walking on ${name}`,
+                    icon: "https://cdn.pixabay.com/photo/2016/09/27/02/11/lotus-1697486_960_720.png",
+                  });
                 });
               }
             }
