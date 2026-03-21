@@ -180,7 +180,7 @@ map.on("load", async () => {
     layout: {
       "text-field": ["get", "name"],
       "symbol-placement": "line",
-      "text-font": ["Roboto Semibold"],
+      "text-font": ["Open Sans Semibold"],
       "text-size": 13,
       "text-letter-spacing": 0.1,
       "text-max-angle": 30,
