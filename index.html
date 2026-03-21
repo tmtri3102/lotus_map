@@ -24,9 +24,79 @@
     />
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Using Google Fonts for Roboto Condensed. 
+         Later you can host locally by replacing this with your local @font-face definition 
+         and src: url('/fonts/DINPro.ttf') format('truetype'); -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!-- The Map is kept hidden underneath initially -->
     <div id="map"></div>
+
+    <!-- Landing Page Overlay -->
+    <div id="landing-page" class="landing-page">
+      <header class="navbar">
+        <div class="logo">
+          <img src="logo_icon.png" alt="LotusMap Logo" width="32" height="32" />
+          <span>Lotus</span
+          ><span style="color: #2196f3; margin-left: -3px">Map</span>
+        </div>
+        <button class="cta-btn primary" onclick="enterApp()">Open Map</button>
+      </header>
+
+      <main class="hero">
+        <div class="hero-content">
+          <h1 class="title">Discover Vietnam's Streets</h1>
+          <p class="caption">
+            Explore the rich history and unique stories hiding behind every
+            street corner, completely optimized for an immersive audio visual
+            experience.
+          </p>
+          <button class="cta-btn primary large" onclick="enterApp()">
+            Start Exploring
+          </button>
+        </div>
+        <div class="hero-visual">
+          <div class="phone-frame">
+            <!-- Placeholder for GIF. Replace src with your actual gif -->
+            <img
+              src="https://cdn.pixabay.com/photo/2016/09/27/02/11/lotus-1697486_960_720.png"
+              alt="App Preview"
+              class="screen-content"
+            />
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div>&copy; LotusMap 2026</div>
+        <div>Proudly made in LotusHacks 2026 Hackathon by Tran Minh Tri</div>
+      </footer>
+    </div>
+
     <script type="module" src="main.js"></script>
+    <script>
+      // Function to transition from Landing to Map
+      function enterApp() {
+        const landing = document.getElementById("landing-page");
+        landing.classList.add("fade-out");
+
+        // Remove from DOM after fade animation allowing map to be clicked
+        setTimeout(() => {
+          landing.style.display = "none";
+
+          // Trigger a resize on mapbox so it knows it is visible and has correct dimensions
+          if (window.mapInstance) {
+            window.mapInstance.resize();
+          }
+        }, 500);
+      }
+    </script>
   </body>
 </html>

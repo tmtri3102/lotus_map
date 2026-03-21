@@ -1,10 +1,12 @@
-const CACHE_NAME = 'lotus-map-v1';
+const CACHE_NAME = 'lotus-map-v2';
 const ASSETS = [
   '/',
   '/index.html',
-  '/export_test.geojson',
-  'https://unpkg.com/maplibre-gl@5.9.0/dist/maplibre-gl.css',
-  'https://unpkg.com/maplibre-gl@5.9.0/dist/maplibre-gl.js'
+  '/demo.geojson',
+  '/style.css',
+  '/main.js',
+  'https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.css',
+  'https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.js'
 ];
 
 self.addEventListener('install', (event) => {
@@ -21,10 +23,13 @@ self.addEventListener('fetch', (event) => {
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) return cachedResponse;
       return fetch(event.request).then((response) => {
-        return caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, response.clone());
-          return response;
-        });
+        // Only cache Mapbox Tiles / Assets or our own api to save requests. 
+        // We will omit eleven labs from SW cache initially to prevent heavy bloat or TTS cache issues since using S3
+        if (event.request.url.includes("mapbox.com") || event.request.url.includes("lotus-map")) {
+           const cloned = response.clone();
+           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, cloned));
+        }
+        return response;
       });
     })
   );

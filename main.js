@@ -61,6 +61,9 @@ const geolocate = new mapboxgl.GeolocateControl({
 });
 map.addControl(geolocate, "top-right");
 
+// Make map globally accessible for the landing page transition resize
+window.mapInstance = map;
+
 // --- Street View Control ---
 let isStreetViewActive = true;
 class StreetViewControl {
