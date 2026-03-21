@@ -46,15 +46,87 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/standard",
   center: [106.7, 10.77],
   zoom: 14,
+  maxBounds: [
+    [106.4929, 10.6706], // Southwest coordinates (approx from Feature 1)
+    [106.8692, 10.8851], // Northeast coordinates (approx from Feature 1)
+  ],
 });
 
-// --- Geolocate ---
+// --- Controls ---
+map.addControl(new mapboxgl.NavigationControl(), "top-right");
 const geolocate = new mapboxgl.GeolocateControl({
   positionOptions: { enableHighAccuracy: true },
   trackUserLocation: true,
   showUserHeading: true,
 });
-map.addControl(geolocate);
+map.addControl(geolocate, "top-right");
+
+// --- Street View Control ---
+let isStreetViewActive = true;
+class StreetViewControl {
+  onAdd(map) {
+    this._map = map;
+    this._container = document.createElement("div");
+    this._container.className = "mapboxgl-ctrl mapboxgl-ctrl-group";
+    this._btn = document.createElement("button");
+    this._btn.type = "button";
+    this._btn.title = "Toggle Street View";
+    this._btn.style.width = "32px";
+    this._btn.style.height = "32px";
+    this._btn.style.display = "flex";
+    this._btn.style.justifyContent = "center";
+    this._btn.style.alignItems = "center";
+    this._btn.style.cursor = "pointer";
+    this._btn.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 3h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-5l-3 3-3-3H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke-linecap="round"/>
+        <rect x="7" y="7" width="10" height="2" fill="currentColor" stroke="none"/>
+        <rect x="7" y="11" width="6" height="2" fill="currentColor" stroke="none"/>
+      </svg>
+    `;
+
+    this._updateStyle();
+
+    this._btn.onclick = () => {
+      isStreetViewActive = !isStreetViewActive;
+      this._updateStyle();
+      this._toggleLayer();
+    };
+
+    this._container.appendChild(this._btn);
+    return this._container;
+  }
+
+  onRemove() {
+    this._container.parentNode.removeChild(this._container);
+    this._map = undefined;
+  }
+
+  _updateStyle() {
+    this._btn.style.backgroundColor = isStreetViewActive ? "#e6f2ff" : "";
+    this._btn.style.color = isStreetViewActive ? "#2196F3" : "#333";
+  }
+
+  _toggleLayer() {
+    if (!this._map) return;
+    const visibility = isStreetViewActive ? "visible" : "none";
+    if (this._map.getLayer("streets-layer")) {
+      this._map.setLayoutProperty("streets-layer", "visibility", visibility);
+    }
+    if (this._map.getLayer("streets-labels-layer")) {
+      this._map.setLayoutProperty(
+        "streets-labels-layer",
+        "visibility",
+        visibility,
+      );
+    }
+    if (!isStreetViewActive && geoPopup) {
+      geoPopup.remove();
+    }
+  }
+}
+
+map.addControl(new StreetViewControl(), "top-right");
 
 // Trigger geolocation on the first tap
 function onFirstInteraction() {
