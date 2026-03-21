@@ -1,0 +1,4 @@
+{
+  "outputDirectory": ".",
+  "buildCommand": "sed -i \"s/__MAPBOX_TOKEN__/$MAPBOX_TOKEN/g\" main.js"
+}

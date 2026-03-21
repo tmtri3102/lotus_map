@@ -16,12 +16,10 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
+  if (!event.request.url.startsWith('http')) return;
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
-      // Return cached response right away if found
       if (cachedResponse) return cachedResponse;
-      
-      // Otherwise fetch and update cache
       return fetch(event.request).then((response) => {
         return caches.open(CACHE_NAME).then((cache) => {
           cache.put(event.request, response.clone());
