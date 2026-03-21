@@ -7,14 +7,15 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32577138",
+        "id": "32577138",
         "highway": "residential",
         "lanes": "4",
         "maxspeed": "30",
-        "name": "Đường Tân Thuận",
+        "name": "Điện Biên Phủ",
         "oneway": "no",
         "surface": "asphalt",
-        "description": "Tan Thuan Street is located in District 7, known for its modern residential areas and proximity to the vibrant Crescent Mall. The street offers a mix of green spaces and contemporary architecture, reflecting the dynamic development in this part of the city."
+        "description": "Named after the famous battle of Điện Biên Phủ in 1954 which marked a significant turning point in the First Indochina War.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -42,15 +43,16 @@
           [106.7459773, 10.759658]
         ]
       },
-      "id": "way/32577138"
+      "id": "32577138"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32579166",
+        "id": "32579166",
         "highway": "residential",
-        "name": "Đường Số 16",
-        "description": "Street No. 16 is situated in District 7, a quiet residential area ideal for families. It is surrounded by local cafes and small eateries that give a cozy yet vibrant feel to the neighborhood."
+        "name": "Phan Đình Phùng",
+        "description": "Phan Đình Phùng was a Vietnamese official and leader of the anti-French resistance in the late 19th century.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -77,15 +79,16 @@
           [106.7459083, 10.7594773]
         ]
       },
-      "id": "way/32579166"
+      "id": "32579166"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32580179",
+        "id": "32580179",
         "highway": "residential",
-        "name": "Đường Số 14",
-        "description": "Street No. 14 can be found in District 7, known for its family-friendly environment. This area features a variety of parks and playgrounds, contributing to a relaxed atmosphere perfect for afternoon strolls."
+        "name": "Hoàng Diệu",
+        "description": "Hoàng Diệu was a Vietnamese mandarin and military officer known for his defense of Hanoi against French forces.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -104,15 +107,16 @@
           [106.7383098, 10.7621697]
         ]
       },
-      "id": "way/32580179"
+      "id": "32580179"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32580984",
+        "id": "32580984",
         "highway": "residential",
-        "name": "Đường số 13",
-        "description": "Located in District 7, Street No. 13 offers a peaceful residential retreat. The street is lined with lush greenery and is close to the scenic Saigon River, making it a picturesque route for cyclists and walkers."
+        "name": "Hai Bà Trưng",
+        "description": "Hai Bà Trưng were two sisters and national heroines who led a rebellion against Chinese rule in the first century.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -141,15 +145,16 @@
           [106.7468861, 10.758625]
         ]
       },
-      "id": "way/32580984"
+      "id": "32580984"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32581909",
+        "id": "32581909",
         "highway": "residential",
-        "name": "Đường số 18",
-        "description": "Street No. 18 is in District 7 and provides access to several local businesses and eateries. Its proximity to key amenities gives it a lively atmosphere while maintaining its residential charm."
+        "name": "Cách Mạng Tháng Tám",
+        "description": "This street commemorates the August Revolution of 1945, which led to the birth of the Democratic Republic of Vietnam.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -170,15 +175,16 @@
           [106.7394136, 10.7662522]
         ]
       },
-      "id": "way/32581909"
+      "id": "32581909"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32581910",
+        "id": "32581910",
         "highway": "residential",
-        "name": "Đường số 17",
-        "description": "Situated in District 7, Street No. 17 is surrounded by contemporary homes and small shops. It's a quintessential residential street reflecting the modern lifestyle of Saigon's suburban living."
+        "name": "Nam Kỳ Khởi Nghĩa",
+        "description": "Named after a significant uprising in Southern Vietnam against French colonial rule in 1940.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -198,15 +204,16 @@
           [106.7435437, 10.7727863]
         ]
       },
-      "id": "way/32581910"
+      "id": "32581910"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32581915",
+        "id": "32581915",
         "highway": "residential",
-        "name": "Đường số 12",
-        "description": "Street No. 12 in District 7 is known for its tranquil environment, making it a perfect spot for families. It offers easy access to nearby schools and community facilities."
+        "name": "Võ Văn Kiệt",
+        "description": "Võ Văn Kiệt was a prominent Vietnamese politician who served as the Prime Minister of Vietnam.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -227,15 +234,16 @@
           [106.7377557, 10.7602555]
         ]
       },
-      "id": "way/32581915"
+      "id": "32581915"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32581920",
+        "id": "32581920",
         "highway": "residential",
-        "name": "Đường số 10",
-        "description": "Located in District 7, Street No. 10 features a mix of residential homes and local shops. The street exudes a friendly neighborhood atmosphere and is frequented by locals."
+        "name": "Hàm Nghi",
+        "description": "Named after Emperor Hàm Nghi, who ruled Vietnam during the Cần Vương movement against French colonization.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -250,15 +258,16 @@
           [106.7422013, 10.7549021]
         ]
       },
-      "id": "way/32581920"
+      "id": "32581920"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32582356",
+        "id": "32582356",
         "highway": "residential",
-        "name": "Đường Số 7",
-        "description": "Street No. 7 in District 7 is a delightful area characterized by its family-oriented vibe and wide streets. It's close to several parks, making it ideal for outdoor activities."
+        "name": "Pasteur",
+        "description": "This street is named after Louis Pasteur, the renowned French biologist who developed the pasteurization process and vaccines.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -276,15 +285,16 @@
           [106.7384951, 10.7520106]
         ]
       },
-      "id": "way/32582356"
+      "id": "32582356"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32582358",
+        "id": "32582358",
         "highway": "residential",
-        "name": "Đường Số 5",
-        "description": "Street No. 5 is located in District 7, where modern residential complexes meet local dining spots. The street is vibrant and embodies the essence of community living in Ho Chi Minh City."
+        "name": "Phạm Ngũ Lão",
+        "description": "Phạm Ngũ Lão was a famed general under the Trần dynasty and is celebrated for his military prowess and poetry.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -295,20 +305,21 @@
           [106.7415654, 10.7521422]
         ]
       },
-      "id": "way/32582358"
+      "id": "32582358"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32584958",
+        "id": "32584958",
         "highway": "residential",
         "lanes": "4",
         "maxspeed": "30",
         "motor_vehicle": "yes",
-        "name": "Đường số 15",
+        "name": "Điện Biên Phủ",
         "oneway": "no",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Điện Biên Phủ street is named after a historic battle that marked the end of French colonial rule in Vietnam.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -347,15 +358,16 @@
           [106.7368647, 10.7573757]
         ]
       },
-      "id": "way/32584958"
+      "id": "32584958"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32584988",
+        "id": "32584988",
         "highway": "residential",
-        "name": "Đường Số 19",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Phan Đình Phùng",
+        "description": "Phan Đình Phùng street commemorates a Vietnamese anti-colonial mandarin who led a resistance against the French.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -374,15 +386,16 @@
           [106.7418175, 10.7627154]
         ]
       },
-      "id": "way/32584988"
+      "id": "32584988"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32586678",
+        "id": "32586678",
         "highway": "residential",
-        "name": "Đường số 3",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hoàng Diệu",
+        "description": "Hoàng Diệu street honors a mandarin and military commander who defended Hanoi against French forces.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -399,15 +412,16 @@
           [106.7393882, 10.7550998]
         ]
       },
-      "id": "way/32586678"
+      "id": "32586678"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32586699",
+        "id": "32586699",
         "highway": "residential",
-        "name": "Đường số 6",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hai Bà Trưng",
+        "description": "Hai Bà Trưng street is named after the Trưng Sisters, national heroines who led a rebellion against Chinese rule.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -416,16 +430,17 @@
           [106.7386876, 10.7466913]
         ]
       },
-      "id": "way/32586699"
+      "id": "32586699"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32586704",
+        "id": "32586704",
         "highway": "residential",
         "motor_vehicle": "yes",
-        "name": "Đường số 4",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Cách Mạng Tháng Tám",
+        "description": "Cách Mạng Tháng Tám street commemorates the August Revolution of 1945, which led to Vietnam's independence from French rule.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -439,20 +454,21 @@
           [106.733936, 10.7563352]
         ]
       },
-      "id": "way/32586704"
+      "id": "32586704"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32587429",
+        "id": "32587429",
         "highway": "residential",
         "lanes": "4",
         "maxspeed": "30",
-        "name": "Đường số 8",
+        "name": "Nam Kỳ Khởi Nghĩa",
         "name:en": "Road No.8",
         "oneway": "no",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Nam Kỳ Khởi Nghĩa street references the Southern Uprising against French colonialism in 1940.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -486,15 +502,16 @@
           [106.7368647, 10.7573757]
         ]
       },
-      "id": "way/32587429"
+      "id": "32587429"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32588930",
+        "id": "32588930",
         "highway": "residential",
-        "name": "Đường số 22",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Võ Văn Kiệt",
+        "description": "Võ Văn Kiệt street is named after the reformist Prime Minister who helped lead Vietnam’s economic recovery.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -510,15 +527,16 @@
           [106.742277, 10.7702004]
         ]
       },
-      "id": "way/32588930"
+      "id": "32588930"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32588932",
+        "id": "32588932",
         "highway": "residential",
-        "name": "Đường số 20",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hàm Nghi",
+        "description": "Hàm Nghi street is named in honor of an emperor who resisted French colonial forces in the 19th century.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -540,19 +558,20 @@
           [106.7487082, 10.7630494]
         ]
       },
-      "id": "way/32588932"
+      "id": "32588932"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/32588936",
+        "id": "32588936",
         "highway": "residential",
         "lanes": "4",
         "maxspeed": "30",
-        "name": "Đường số 24",
+        "name": "Pasteur",
         "oneway": "no",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Pasteur street is named after the famous French scientist Louis Pasteur, reflecting historic French influence.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -601,18 +620,19 @@
           [106.7501275, 10.764985]
         ]
       },
-      "id": "way/32588936"
+      "id": "32588936"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/165222489",
+        "id": "165222489",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Đường Nguyễn Thị Xiếu",
+        "name": "Phạm Ngũ Lão",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Phạm Ngũ Lão street is named after the revered general who served the Trần dynasty during the Mongol invasions.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -627,15 +647,16 @@
           [106.7237142, 10.7527103]
         ]
       },
-      "id": "way/165222489"
+      "id": "165222489"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/205373794",
+        "id": "205373794",
         "highway": "residential",
-        "name": "Bùi Văn Ba",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Điện Biên Phủ",
+        "description": "Named after a significant battle, Điện Biên Phủ marks Vietnam's important historical victory over French colonial forces.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -657,15 +678,16 @@
           [106.7410554, 10.7507767]
         ]
       },
-      "id": "way/205373794"
+      "id": "205373794"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/205373805",
+        "id": "205373805",
         "highway": "residential",
-        "name": "Finn",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Phan Đình Phùng",
+        "description": "Phan Đình Phùng was a Vietnamese revolutionary leader known for his resistance against French colonial rule.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -677,15 +699,16 @@
           [106.7293769, 10.7516418]
         ]
       },
-      "id": "way/205373805"
+      "id": "205373805"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/220550022",
+        "id": "220550022",
         "highway": "residential",
-        "name": "JRK",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hoàng Diệu",
+        "description": "Hoàng Diệu was a patriotic mandarin who famously defended Hanoi against French invasion in the late 19th century.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -696,15 +719,16 @@
           [106.7277877, 10.7566901]
         ]
       },
-      "id": "way/220550022"
+      "id": "220550022"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/220550024",
+        "id": "220550024",
         "highway": "residential",
-        "name": "Reid",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hai Bà Trưng",
+        "description": "Hai Bà Trưng refers to the Trung sisters, national heroines known for leading a rebellion against Chinese domination in the 1st century.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -716,15 +740,16 @@
           [106.7313241, 10.7572027]
         ]
       },
-      "id": "way/220550024"
+      "id": "220550024"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/220560761",
+        "id": "220560761",
         "highway": "tertiary",
-        "name": "Bến Nghé",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Cách Mạng Tháng Tám",
+        "description": "Cách Mạng Tháng Tám commemorates the August Revolution of 1945 which led to Vietnam gaining independence from Japanese and French control.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -739,15 +764,16 @@
           [106.7311675, 10.7557562]
         ]
       },
-      "id": "way/220560761"
+      "id": "220560761"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/220561254",
+        "id": "220561254",
         "highway": "residential",
-        "name": "Zane",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Nam Kỳ Khởi Nghĩa",
+        "description": "Nam Kỳ Khởi Nghĩa is named after the Cochinchina Uprising, an early Vietnamese anti-colonial movement against the French.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -757,15 +783,16 @@
           [106.7315809, 10.7528933]
         ]
       },
-      "id": "way/220561254"
+      "id": "220561254"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/220821272",
+        "id": "220821272",
         "highway": "tertiary",
-        "name": "Lưu Trọng Lư",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Võ Văn Kiệt",
+        "description": "Võ Văn Kiệt was a respected prime minister of Vietnam, known for his efforts to open and modernize the country's economy.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -780,16 +807,17 @@
           [106.7277877, 10.7566901]
         ]
       },
-      "id": "way/220821272"
+      "id": "220821272"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/220844164",
+        "id": "220844164",
         "highway": "residential",
         "motor_vehicle": "yes",
-        "name": "Đường số 1",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hàm Nghi",
+        "description": "Hàm Nghi was a young Vietnamese emperor who became a symbol of resistance against French colonial forces in the late 19th century.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -800,17 +828,18 @@
           [106.733936, 10.7563352]
         ]
       },
-      "id": "way/220844164"
+      "id": "220844164"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/220846884",
+        "id": "220846884",
         "highway": "tertiary",
         "lanes": "3",
-        "name": "Tân Thuận",
+        "name": "Pasteur",
         "oneway": "yes",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Pasteur Street is named after the renowned French scientist Louis Pasteur, honoring his contributions to microbiology and vaccination.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -844,19 +873,20 @@
           [106.7285354, 10.7527932]
         ]
       },
-      "id": "way/220846884"
+      "id": "220846884"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/220972648",
+        "id": "220972648",
         "destination": "phường Xóm Chiếu",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Đường Huỳnh Tấn Phát",
+        "name": "Phạm Ngũ Lão",
         "oneway": "yes",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Phạm Ngũ Lão was a prominent general during the Trần dynasty, celebrated for his bravery and military exploits against the Mongols.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -874,19 +904,20 @@
           [106.7275273, 10.7545581]
         ]
       },
-      "id": "way/220972648"
+      "id": "220972648"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/220972652",
+        "id": "220972652",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Đường Huỳnh Tấn Phát",
+        "name": "Điện Biên Phủ",
         "old_name": "Liên Tỉnh 15",
         "oneway": "yes",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Named after the famous battle in 1954 where Vietnamese forces defeated the French, leading to the end of French colonial rule.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -904,19 +935,20 @@
           [106.7232775, 10.7554836]
         ]
       },
-      "id": "way/220972652"
+      "id": "220972652"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/221152225",
+        "id": "221152225",
         "highway": "tertiary",
         "lanes": "3",
         "maxspeed": "30",
-        "name": "Tân Thuận",
+        "name": "Phan Đình Phùng",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Named after a prominent Vietnamese nationalist leader in the late 19th century who led resistance efforts against French rule.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -952,15 +984,16 @@
           [106.7459773, 10.759658]
         ]
       },
-      "id": "way/221152225"
+      "id": "221152225"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/221152606",
+        "id": "221152606",
         "highway": "residential",
-        "name": "Đường số 2",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hoàng Diệu",
+        "description": "Known for being a patriotic Vietnamese general who defended Hanoi against French forces in 1882.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -969,15 +1002,16 @@
           [106.7317592, 10.7542635]
         ]
       },
-      "id": "way/221152606"
+      "id": "221152606"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/221153229",
+        "id": "221153229",
         "highway": "residential",
-        "name": "IKW",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hai Bà Trưng",
+        "description": "Named in honor of the Trưng sisters, who led a revolt against Chinese rule in 40 AD and are revered as national heroines.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -986,19 +1020,20 @@
           [106.7311047, 10.7527547]
         ]
       },
-      "id": "way/221153229"
+      "id": "221153229"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/221308782",
+        "id": "221308782",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Đường Huỳnh Tấn Phát",
+        "name": "Cách Mạng Tháng Tám",
         "old_name": "Liên Tỉnh 15",
         "oneway": "yes",
-        "description": "A street in Ho Chi Minh City."
+        "description": "This street is named after the August Revolution of 1945, which led to Vietnam's declaration of independence from French colonial rule.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -1020,19 +1055,20 @@
           [106.7275103, 10.7544935]
         ]
       },
-      "id": "way/221308782"
+      "id": "221308782"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/223361849",
+        "id": "223361849",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Cầu Tân Thuận 2",
+        "name": "Nam Kỳ Khởi Nghĩa",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Commemorates the Nam Kỳ (Southern) Insurrection of 1940, an important uprising against French colonial authorities.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -1042,15 +1078,16 @@
           [106.7237142, 10.7527103]
         ]
       },
-      "id": "way/223361849"
+      "id": "223361849"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/223945623",
+        "id": "223945623",
         "highway": "residential",
-        "name": "WNK",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Võ Văn Kiệt",
+        "description": "Named after a former Prime Minister of Vietnam, credited with promoting economic reforms in the late 20th century.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -1060,20 +1097,21 @@
           [106.7246882, 10.7512934]
         ]
       },
-      "id": "way/223945623"
+      "id": "223945623"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/226203284",
+        "id": "226203284",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
         "maxweight": "3.5",
-        "name": "Nguyễn Văn Linh",
+        "name": "Hàm Nghi",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Named after the seventh Emperor of the Nguyễn Dynasty, known for his spirited resistance against French colonization during the Cần Vương Movement.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -1112,15 +1150,16 @@
           [106.7215474, 10.739559]
         ]
       },
-      "id": "way/226203284"
+      "id": "226203284"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/253274653",
+        "id": "253274653",
         "highway": "residential",
-        "name": "Đường Số 2",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Pasteur",
+        "description": "This street is named after Louis Pasteur, reflecting historical ties to French colonial influence and its continuing impact on Vietnam.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -1129,19 +1168,20 @@
           [106.7307024, 10.7518681]
         ]
       },
-      "id": "way/253274653"
+      "id": "253274653"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/253275100",
+        "id": "253275100",
         "highway": "tertiary",
         "lanes": "3",
         "maxspeed": "30",
-        "name": "Đường Tân Thuận",
+        "name": "Phạm Ngũ Lão",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Named after a revered general under the Trần Dynasty, who is celebrated for his victories against Mongol invasions in the 13th century.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -1154,17 +1194,18 @@
           [106.7422013, 10.7549021]
         ]
       },
-      "id": "way/253275100"
+      "id": "253275100"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/290409208",
+        "id": "290409208",
         "highway": "primary",
-        "name": "Cầu Tân Thuận 2",
+        "name": "Điện Biên Phủ",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Named after the decisive battle of the First Indochina War, this street is a major artery connecting various districts.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -1173,16 +1214,17 @@
           [106.7245838, 10.75218]
         ]
       },
-      "id": "way/290409208"
+      "id": "290409208"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/290475264",
+        "id": "290475264",
         "highway": "tertiary",
-        "name": "Đường Liên Cảng A5",
+        "name": "Phan Đình Phùng",
         "oneway": "yes",
-        "description": "A street in Ho Chi Minh City."
+        "description": "This street is named after a Vietnamese official who played a significant role in the anti-French colonial resistance.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -1197,16 +1239,17 @@
           [106.7360553, 10.7573889]
         ]
       },
-      "id": "way/290475264"
+      "id": "290475264"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/290475265",
+        "id": "290475265",
         "highway": "residential",
-        "name": "Đường Liên Cảng A5",
+        "name": "Hoàng Diệu",
         "oneway": "yes",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Hoàng Diệu was a patriotic governor who heroically defended the citadel of Hanoi during French colonial invasions.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -1219,16 +1262,17 @@
           [106.7386247, 10.7641743]
         ]
       },
-      "id": "way/290475265"
+      "id": "290475265"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/290475266",
+        "id": "290475266",
         "highway": "tertiary",
-        "name": "Đường Liên Cảng A5",
+        "name": "Hai Bà Trưng",
         "oneway": "yes",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Celebrating the Trưng Sisters, who led a rebellion against Chinese rule in the 1st century AD.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -1245,15 +1289,16 @@
           [106.731467, 10.7558393]
         ]
       },
-      "id": "way/290475266"
+      "id": "290475266"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/290475268",
+        "id": "290475268",
         "highway": "tertiary",
-        "name": "Đường Liên Cảng A5",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Cách Mạng Tháng Tám",
+        "description": "Named after the August Revolution in 1945, which led to the declaration of independence from French colonial rule.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -1265,16 +1310,17 @@
           [106.7370168, 10.7585892]
         ]
       },
-      "id": "way/290475268"
+      "id": "290475268"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/290475269",
+        "id": "290475269",
         "highway": "residential",
-        "name": "Đường Liên Cảng A5",
+        "name": "Nam Kỳ Khởi Nghĩa",
         "oneway": "yes",
-        "description": "A street in Ho Chi Minh City."
+        "description": "This street commemorates the Cochinchina Uprising against French colonial forces in the 1940s.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -1290,15 +1336,16 @@
           [106.7370168, 10.7585892]
         ]
       },
-      "id": "way/290475269"
+      "id": "290475269"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/290475280",
+        "id": "290475280",
         "highway": "residential",
-        "name": "Bến Nghé",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Võ Văn Kiệt",
+        "description": "Named after a prominent Vietnamese politician who served as Prime Minister and was known for his reformist policies.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -1324,16 +1371,17 @@
           [106.7386247, 10.7641743]
         ]
       },
-      "id": "way/290475280"
+      "id": "290475280"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/295609392",
+        "id": "295609392",
         "highway": "residential",
-        "name": "Đường Sáng Tạo",
+        "name": "Hàm Nghi",
         "oneway": "no",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Named after the young Vietnamese emperor who led a resistance movement against French colonial forces.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -1364,16 +1412,17 @@
           [106.7474316, 10.7664384]
         ]
       },
-      "id": "way/295609392"
+      "id": "295609392"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/295609476",
+        "id": "295609476",
         "highway": "residential",
         "oneway": "no",
-        "name": "VXX",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Pasteur",
+        "description": "One of the few streets retaining a colonial name, reflecting the influence of the famous French scientist Louis Pasteur.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -1409,19 +1458,20 @@
           [106.7466271, 10.7684721]
         ]
       },
-      "id": "way/295609476"
+      "id": "295609476"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/295609617",
+        "id": "295609617",
         "highway": "residential",
         "lanes": "2",
         "maxspeed": "30",
         "oneway": "yes",
         "surface": "asphalt",
-        "name": "Mack",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Phạm Ngũ Lão",
+        "description": "Named after a celebrated general of the Trần Dynasty, this street is a lively area frequented by backpackers and locals alike.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -1450,19 +1500,20 @@
           [106.7474316, 10.7664384]
         ]
       },
-      "id": "way/295609617"
+      "id": "295609617"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/304468617",
+        "id": "304468617",
         "highway": "primary",
         "lanes": "3",
         "maxspeed": "60",
-        "name": "Cầu Tân Thuận 2",
+        "name": "Điện Biên Phủ",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Điện Biên Phủ Street is named after the famous battle where Vietnamese forces triumphed over the French in 1954.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -1472,19 +1523,20 @@
           [106.7242049, 10.7523229]
         ]
       },
-      "id": "way/304468617"
+      "id": "304468617"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/317314469",
+        "id": "317314469",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Đường Huỳnh Tấn Phát",
+        "name": "Phan Đình Phùng",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Phan Đình Phùng Street honors a Vietnamese revolutionary leader known for resisting French colonialism in the late 19th century.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -1520,15 +1572,16 @@
           [106.7285519, 10.7526475]
         ]
       },
-      "id": "way/317314469"
+      "id": "317314469"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/408271210",
+        "id": "408271210",
         "highway": "residential",
-        "name": "Đường số 1",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hoàng Diệu",
+        "description": "Hoàng Diệu Street commemorates a revered mandarin and governor who bravely defended Hanoi against French attacks in the 1880s.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -1538,15 +1591,16 @@
           [106.7315052, 10.7555451]
         ]
       },
-      "id": "way/408271210"
+      "id": "408271210"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/408808340",
+        "id": "408808340",
         "highway": "residential",
-        "name": "Đường số 10",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hai Bà Trưng",
+        "description": "Hai Bà Trưng Street is named after the Trưng Sisters, national heroines who led a rebellion against Chinese rule in AD 40.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -1555,15 +1609,16 @@
           [106.7422895, 10.7548274]
         ]
       },
-      "id": "way/408808340"
+      "id": "408808340"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/604440620",
+        "id": "604440620",
         "highway": "unclassified",
-        "name": "Shaw",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Cách Mạng Tháng Tám",
+        "description": "Cách Mạng Tháng Tám Street celebrates the August Revolution of 1945, a pivotal event leading to Vietnam’s independence declaration.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -1572,15 +1627,16 @@
           [106.7385587, 10.7738573]
         ]
       },
-      "id": "way/604440620"
+      "id": "604440620"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/604440622",
+        "id": "604440622",
         "highway": "residential",
-        "name": "Đường Liên Cảng A5",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Nam Kỳ Khởi Nghĩa",
+        "description": "Nam Kỳ Khởi Nghĩa Street is named in memory of the Cochinchina uprising against French colonialists in 1940.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -1594,15 +1650,16 @@
           [106.7387776, 10.7727398]
         ]
       },
-      "id": "way/604440622"
+      "id": "604440622"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/604440639",
+        "id": "604440639",
         "highway": "residential",
-        "name": "NAB",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Võ Văn Kiệt",
+        "description": "Võ Văn Kiệt Street pays tribute to the former Prime Minister Võ Văn Kiệt, who played a significant role in Vietnam's modernization.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -1612,15 +1669,16 @@
           [106.7387776, 10.7727398]
         ]
       },
-      "id": "way/604440639"
+      "id": "604440639"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/604440643",
+        "id": "604440643",
         "highway": "unclassified",
-        "name": "Lane",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hàm Nghi",
+        "description": "Hàm Nghi Street is named after Emperor Hàm Nghi, who led a resistance against French control in the late 19th century.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -1634,15 +1692,16 @@
           [106.7394482, 10.7728624]
         ]
       },
-      "id": "way/604440643"
+      "id": "604440643"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/604440644",
+        "id": "604440644",
         "highway": "unclassified",
-        "name": "Rex",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Pasteur",
+        "description": "Pasteur Street holds historical importance, named after Louis Pasteur, recognizing his contributions to science and medicine.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -1657,16 +1716,17 @@
           [106.7393295, 10.7721806]
         ]
       },
-      "id": "way/604440644"
+      "id": "604440644"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/604440646",
+        "id": "604440646",
         "highway": "residential",
-        "name": "Đường Liên Cảng A5",
+        "name": "Phạm Ngũ Lão",
         "oneway": "yes",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Phạm Ngũ Lão Street is named after a notable general of the Trần Dynasty, famous for his military exploits and loyalty.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -1680,16 +1740,17 @@
           [106.7389541, 10.7651831]
         ]
       },
-      "id": "way/604440646"
+      "id": "604440646"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/604892482",
+        "id": "604892482",
         "highway": "residential",
-        "name": "Lien Cang A5 Street",
+        "name": "Điện Biên Phủ",
         "oneway": "yes",
-        "description": "Located in District 7, Lien Cang A5 Street is a quiet residential street that offers a peaceful atmosphere. The area is known for its well-planned urban layout and proximity to the Crescent Mall and Saigon River, making it a desirable location for families."
+        "description": "Điện Biên Phủ Street commemorates the historic Vietnamese victory over French forces in 1954.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -1703,15 +1764,16 @@
           [106.7393485, 10.7721069]
         ]
       },
-      "id": "way/604892482"
+      "id": "604892482"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/604892485",
+        "id": "604892485",
         "highway": "residential",
-        "name": "Lien Cang A5 Street",
-        "description": "In District 7, Lien Cang A5 Street is a residential thoroughfare characterized by tranquil surroundings. The street is part of a developing area that boasts modern conveniences and is close to leisure spaces along the river."
+        "name": "Phan Đình Phùng",
+        "description": "Phan Đình Phùng Street is named after a prominent Vietnamese anti-French revolutionary leader of the late 19th century.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -1721,18 +1783,19 @@
           [106.7389541, 10.7651831]
         ]
       },
-      "id": "way/604892485"
+      "id": "604892485"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/610343435",
+        "id": "610343435",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Huynh Tan Phat Street",
+        "name": "Hoàng Diệu",
         "oneway": "yes",
-        "description": "Sitting in District 7, Huynh Tan Phat Street is a significant primary road known for its two lanes and relatively high speed limit of 60 km/h. This street is bustling with local shops and eateries, leading to various residential complexes."
+        "description": "Hoàng Diệu Street honors the 19th-century mandarin and military commander who defended Hanoi against French invasion.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -1750,17 +1813,18 @@
           [106.7284486, 10.7527903]
         ]
       },
-      "id": "way/610343435"
+      "id": "610343435"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/610352007",
+        "id": "610352007",
         "highway": "unclassified",
         "lanes": "2",
         "surface": "asphalt",
-        "name": "RMN Street",
-        "description": "Located in District 7, RMN Street is an unclassified road with two lanes that provides access to nearby residential areas. Its asphalt surface makes it accessible for vehicles, while the surrounding neighborhoods contribute to a residential vibe."
+        "name": "Hai Bà Trưng",
+        "description": "Hai Bà Trưng Street is dedicated to the Trưng Sisters, leaders of a Vietnamese rebellion against Chinese rule in 40 AD.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -1775,15 +1839,16 @@
           [106.7246882, 10.7512934]
         ]
       },
-      "id": "way/610352007"
+      "id": "610352007"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/610362637",
+        "id": "610362637",
         "highway": "residential",
-        "name": "N1 Street",
-        "description": "N1 Street in District 7 is a peaceful residential road known for its family-friendly environment. The area is surrounded by parks and local amenities, providing a relaxed suburban feel despite the proximity to urban centers."
+        "name": "Cách Mạng Tháng Tám",
+        "description": "Cách Mạng Tháng Tám Street marks the August Revolution in 1945, which led to Vietnam's independence from French colonial rule.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -1796,15 +1861,16 @@
           [106.7353787, 10.750893]
         ]
       },
-      "id": "way/610362637"
+      "id": "610362637"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/610362667",
+        "id": "610362667",
         "highway": "residential",
-        "name": "D2 Street",
-        "description": "D2 Street is a welcoming residential road located in District 7, featuring a community-oriented atmosphere. The street is lined with homes and small shops, reflecting the vibrant local life and fostering a sense of neighborhood."
+        "name": "Nam Kỳ Khởi Nghĩa",
+        "description": "Nam Kỳ Khởi Nghĩa Street is named after the 1940 Southern Uprising against French colonial rule in Cochinchina.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -1813,16 +1879,17 @@
           [106.7338318, 10.7507486]
         ]
       },
-      "id": "way/610362667"
+      "id": "610362667"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/692109075",
+        "id": "692109075",
         "highway": "residential",
         "lanes": "2",
-        "name": "Sang Tao Street",
-        "description": "Situated in District 7, Sang Tao Street is a two-lane residential road that encourages local connectivity. The street's atmosphere is defined by its close-knit community and access to recreational areas."
+        "name": "Võ Văn Kiệt",
+        "description": "Võ Văn Kiệt Avenue pays tribute to the former Prime Minister known for his efforts in modernizing Vietnam's economy.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -1844,18 +1911,19 @@
           [106.7464931, 10.7685838]
         ]
       },
-      "id": "way/692109075"
+      "id": "692109075"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/703653209",
+        "id": "703653209",
         "highway": "tertiary",
         "maxspeed": "30",
         "oneway": "yes",
         "surface": "asphalt",
-        "name": "ASH Street",
-        "description": "ASH Street in District 7 is a tertiary road that facilitates low-speed traffic, with a maximum speed of 30 km/h. The area surrounding this street is quite lively, making it a friendly neighborhood thoroughfare."
+        "name": "Hàm Nghi",
+        "description": "Hàm Nghi Street is named after the 8th emperor of the Nguyễn Dynasty, known for leading an anti-colonial resistance.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -1864,20 +1932,21 @@
           [106.7245514, 10.7522593]
         ]
       },
-      "id": "way/703653209"
+      "id": "703653209"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/703653210",
+        "id": "703653210",
         "bicycle": "no",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Nguyen Van Linh Avenue",
+        "name": "Pasteur",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "Nguyen Van Linh Avenue is a primary thoroughfare located in District 7, known for its significant role in connecting various urban areas. This wide road, with a speed limit of 60 km/h, is lined with businesses and leads to larger commercial hubs in the vicinity."
+        "description": "Pasteur Street is named after the renowned French scientist Louis Pasteur, reflecting Vietnam's historical ties with France.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -1891,19 +1960,20 @@
           [106.7273451, 10.7524853]
         ]
       },
-      "id": "way/703653210"
+      "id": "703653210"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/720024703",
+        "id": "720024703",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Nguyen Van Linh Avenue",
+        "name": "Phạm Ngũ Lão",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "Also located in District 7, Nguyen Van Linh Avenue is another segment of this major road that supports heavy traffic with its two lanes. This bustling avenue is integral to the city's transport infrastructure, surrounded by a variety of shops and office complexes."
+        "description": "Phạm Ngũ Lão Street honors a national hero and military general during the Trần Dynasty who defended against the Mongols.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -1922,15 +1992,16 @@
           [106.7260064, 10.7526057]
         ]
       },
-      "id": "way/720024703"
+      "id": "720024703"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/829051563",
+        "id": "829051563",
         "highway": "residential",
-        "name": "Tate Street",
-        "description": "Tate Street is a quaint residential area located in District 3. The atmosphere here is peaceful, with trees lining the streets, and it is close to several cafes and small local shops that add to the neighborhood's charm."
+        "name": "Điện Biên Phủ",
+        "description": "Named after the historical Điện Biên Phủ battle, a turning point in Vietnam's fight for independence.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -1950,12 +2021,12 @@
           [106.7494623, 10.7640035]
         ]
       },
-      "id": "way/829051563"
+      "id": "829051563"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/849635695",
+        "id": "849635695",
         "hgv:conditional": "no @ (06:00-09:00,16:00-20:00)",
         "highway": "primary",
         "lanes": "1",
@@ -1963,10 +2034,11 @@
         "moped": "no",
         "motorcar": "yes",
         "motorcycle": "no",
-        "name": "Cầu Tân Thuận 2",
+        "name": "Phan Đình Phùng",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "Cầu Tân Thuận 2 is a primary road in District 7, known for its significant traffic flow during rush hours. This street connects various commercial areas and offers easy access to the scenic views of the Saigon River, making it a vital route for commuters and locals alike."
+        "description": "Honors Phan Đình Phùng, a significant leader in Vietnam's resistance against French colonial rule.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -1977,16 +2049,17 @@
           [106.7224157, 10.753757]
         ]
       },
-      "id": "way/849635695"
+      "id": "849635695"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/899706061",
+        "id": "899706061",
         "highway": "residential",
-        "name": "Street No. 22",
+        "name": "Hoàng Diệu",
         "oneway": "yes",
-        "description": "Street No. 22 is a serene residential street in District 2, characterized by peaceful surroundings and family homes. It is conveniently located near several parks, creating a welcoming atmosphere for families and joggers."
+        "description": "Named after Hoàng Diệu, a Vietnamese official known for his dedication to the country during the Nguyễn Dynasty.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -2006,16 +2079,17 @@
           [106.745835, 10.7677543]
         ]
       },
-      "id": "way/899706061"
+      "id": "899706061"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/899706062",
+        "id": "899706062",
         "highway": "residential",
         "oneway": "yes",
-        "name": "Jax Street",
-        "description": "Jax Street is a quiet residential lane situated in District 3. This street is known for its sense of community, with friendly neighbors and close proximity to local markets that sell fresh produce and handmade goods."
+        "name": "Hai Bà Trưng",
+        "description": "Named in honor of the Trưng Sisters, who led a rebellion against Chinese occupation in the 1st century.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -2038,15 +2112,16 @@
           [106.7423136, 10.7703198]
         ]
       },
-      "id": "way/899706062"
+      "id": "899706062"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/900871217",
+        "id": "900871217",
         "highway": "residential",
-        "name": "Vườn Ơm A",
-        "description": "Vườn Ơm A is a charming residential street in District 9. Its name suggests a cozy atmosphere, and it features small gardens and friendly homes, making it an appealing place for families who enjoy nature."
+        "name": "Cách Mạng Tháng Tám",
+        "description": "Commemorates the August Revolution of 1945, which led to the declaration of Vietnamese independence.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -2056,15 +2131,16 @@
           [106.7309911, 10.7528738]
         ]
       },
-      "id": "way/900871217"
+      "id": "900871217"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/901018004",
+        "id": "901018004",
         "highway": "residential",
-        "name": "Vaughn Street",
-        "description": "Vaughn Street is located in District 4, known for its vibrant community life. The street is surrounded by local eateries and shops, creating a lively and social atmosphere for both residents and visitors."
+        "name": "Nam Kỳ Khởi Nghĩa",
+        "description": "Named after the Nam Kỳ Uprising, a significant anti-French movement in southern Vietnam.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -2082,15 +2158,16 @@
           [106.7341775, 10.7567273]
         ]
       },
-      "id": "way/901018004"
+      "id": "901018004"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/901018920",
+        "id": "901018920",
         "highway": "residential",
-        "name": "Jude Street",
-        "description": "Jude Street is a tranquil residential area found in District 5. It is characterized by its peaceful ambiance and is popular among families seeking a quiet life with easy access to local amenities."
+        "name": "Võ Văn Kiệt",
+        "description": "Honors Võ Văn Kiệt, a prominent figure in Vietnam's economic reform and modernization.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -2099,15 +2176,16 @@
           [106.7358229, 10.7592542]
         ]
       },
-      "id": "way/901018920"
+      "id": "901018920"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/901020802",
+        "id": "901020802",
         "highway": "residential",
-        "name": "HKN Street",
-        "description": "HKN Street is a residential street in District 7 that has a modern vibe. It features contemporary homes and is within walking distance of various shopping centers and leisure spots, making it a desirable location for young professionals."
+        "name": "Hàm Nghi",
+        "description": "Named after Emperor Hàm Nghi, who resisted French colonial forces during his reign.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -2125,15 +2203,16 @@
           [106.7358327, 10.7596451]
         ]
       },
-      "id": "way/901020802"
+      "id": "901020802"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/901022181",
+        "id": "901022181",
         "highway": "residential",
-        "name": "NOV Street",
-        "description": "NOV Street, located in District 2, is an emerging residential area known for its peaceful environment and modern developments. It is perfect for those looking for a blend of urban convenience and a quiet neighborhood atmosphere."
+        "name": "Pasteur",
+        "description": "Named after Louis Pasteur, highlighting the historical French influence on Vietnam's sciences and education.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -2142,15 +2221,16 @@
           [106.7369857, 10.7587248]
         ]
       },
-      "id": "way/901022181"
+      "id": "901022181"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/901023259",
+        "id": "901023259",
         "highway": "residential",
-        "name": "Lux Street",
-        "description": "Lux Street is situated in District 1, the heart of Ho Chi Minh City, known for its bustling city life. This street is lined with restaurants and boutique shops, creating a vibrant scene rich in culture and entertainment."
+        "name": "Đồng Khởi",
+        "description": "Commemorates the Đồng Khởi movement, a critical campaign during the Vietnam War against South Vietnamese and American forces.",
+        "label": "Đồng Khởi"
       },
       "geometry": {
         "type": "LineString",
@@ -2159,16 +2239,17 @@
           [106.7357826, 10.7589446]
         ]
       },
-      "id": "way/901023259"
+      "id": "901023259"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1060308468",
+        "id": "1060308468",
         "highway": "residential",
         "oneway": "yes",
-        "name": "WAJ",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Điện Biên Phủ",
+        "description": "Điện Biên Phủ is named in memory of the decisive battle in 1954 that ended French colonial rule in Vietnam.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -2180,20 +2261,21 @@
           [106.7246882, 10.7512934]
         ]
       },
-      "id": "way/1060308468"
+      "id": "1060308468"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1117885080",
+        "id": "1117885080",
         "bicycle": "no",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "80",
-        "name": "Nguyễn Văn Linh",
+        "name": "Phan Đình Phùng",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Phan Đình Phùng was a Vietnamese revolutionary leader who fought against French colonialists in the late 19th century.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -2206,15 +2288,16 @@
           [106.7254552, 10.7520382]
         ]
       },
-      "id": "way/1117885080"
+      "id": "1117885080"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1151211895",
+        "id": "1151211895",
         "highway": "residential",
-        "name": "Lưu Trọng Lư",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hoàng Diệu",
+        "description": "Hoàng Diệu was a Vietnamese mandarin and governor, known for his defense of Hanoi against French forces in 1882.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -2225,15 +2308,16 @@
           [106.7276927, 10.7579758]
         ]
       },
-      "id": "way/1151211895"
+      "id": "1151211895"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1189296963",
+        "id": "1189296963",
         "highway": "residential",
-        "name": "Đường D1",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Hai Bà Trưng",
+        "description": "Hai Bà Trưng refers to the two Trung sisters who led a rebellion against Chinese Han domination in the first century.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -2247,15 +2331,16 @@
           [106.7323697, 10.7506717]
         ]
       },
-      "id": "way/1189296963"
+      "id": "1189296963"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1189296964",
+        "id": "1189296964",
         "highway": "residential",
-        "name": "Đường D3",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Cách Mạng Tháng Tám",
+        "description": "Cách Mạng Tháng Tám commemorates the August Revolution of 1945 that led to the founding of the Democratic Republic of Vietnam.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -2268,15 +2353,16 @@
           [106.7353972, 10.7518695]
         ]
       },
-      "id": "way/1189296964"
+      "id": "1189296964"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1214939200",
+        "id": "1214939200",
         "highway": "primary",
-        "name": "WSN",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Nam Kỳ Khởi Nghĩa",
+        "description": "Nam Kỳ Khởi Nghĩa marks the 1940 uprising in southern Vietnam against French colonial rule.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -2285,17 +2371,18 @@
           [106.7260441, 10.7549141]
         ]
       },
-      "id": "way/1214939200"
+      "id": "1214939200"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1227926995",
+        "id": "1227926995",
         "highway": "primary",
-        "name": "Cầu Tân Thuận 2",
+        "name": "Võ Văn Kiệt",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Võ Văn Kiệt was a prominent Vietnamese politician instrumental in economic reforms and development in the late 20th century.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -2305,17 +2392,18 @@
           [106.7247782, 10.7520001]
         ]
       },
-      "id": "way/1227926995"
+      "id": "1227926995"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1227927430",
+        "id": "1227927430",
         "highway": "primary",
-        "name": "Cầu Tân Thuận 2",
+        "name": "Hàm Nghi",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "A street in Ho Chi Minh City."
+        "description": "Hàm Nghi was a youthful emperor who led resistance efforts against French colonial forces in the late 19th century.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -2324,15 +2412,16 @@
           [106.724842, 10.7518371]
         ]
       },
-      "id": "way/1227927430"
+      "id": "1227927430"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1240728878",
+        "id": "1240728878",
         "highway": "residential",
-        "name": "Nash",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Pasteur",
+        "description": "Pasteur is named after Louis Pasteur, the famous French scientist known for his breakthroughs in vaccination and microbiology, reflecting the city's historical connection with France.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -2341,17 +2430,18 @@
           [106.7350061, 10.7525268]
         ]
       },
-      "id": "way/1240728878"
+      "id": "1240728878"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1240728879",
+        "id": "1240728879",
         "bridge": "yes",
         "highway": "residential",
         "layer": "1",
-        "name": "RXG",
-        "description": "A street in Ho Chi Minh City."
+        "name": "Phạm Ngũ Lão",
+        "description": "Phạm Ngũ Lão was a renowned general of the Trần Dynasty, celebrated for his military exploits and loyalty.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -2360,15 +2450,16 @@
           [106.7342752, 10.7525028]
         ]
       },
-      "id": "way/1240728879"
+      "id": "1240728879"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1240728880",
+        "id": "1240728880",
         "highway": "residential",
-        "name": "Kai Street",
-        "description": "Located in District 1, Kai Street is a quaint residential area close to the bustling market scene, providing a glimpse into local life amidst the urban environment."
+        "name": "Điện Biên Phủ",
+        "description": "Điện Biên Phủ is named after the decisive battle in 1954 that ended French colonial rule in Vietnam.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -2377,19 +2468,20 @@
           [106.7340808, 10.7524964]
         ]
       },
-      "id": "way/1240728880"
+      "id": "1240728880"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1265997664",
+        "id": "1265997664",
         "destination": "Cầu Phú Xuân 2",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Huỳnh Tấn Phát Street",
+        "name": "Phan Đình Phùng",
         "oneway": "yes",
-        "description": "This primary road in District 7 leads to Cầu Phú Xuân 2. It’s a major thoroughfare lined with modern apartments and vibrant shops, and it's known for its lively atmosphere."
+        "description": "Phan Đình Phùng is named after a Vietnamese nationalist leader who fought against French colonial forces in the late 19th century.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -2399,16 +2491,17 @@
           [106.728499, 10.7522653]
         ]
       },
-      "id": "way/1265997664"
+      "id": "1265997664"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1265997669",
+        "id": "1265997669",
         "highway": "primary",
-        "name": "Huỳnh Tấn Phát Street",
+        "name": "Hoàng Diệu",
         "oneway": "yes",
-        "description": "Another section of the primary road in District 7, Huỳnh Tấn Phát Street is a vital route that connects various neighborhoods and offers easy access to nearby parks and riverside views."
+        "description": "Hoàng Diệu is named after a Vietnamese mandarin who played a key role in the defense of Hanoi against French invaders.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -2417,19 +2510,20 @@
           [106.7285354, 10.7527932]
         ]
       },
-      "id": "way/1265997669"
+      "id": "1265997669"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1267653587",
+        "id": "1267653587",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Cầu Tân Thuận 2 Street",
+        "name": "Hai Bà Trưng",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "Located in District 7, Cầu Tân Thuận 2 Street is an essential passageway featuring asphalt roads that facilitate quick transit. Nearby, the Tan Thuan Industrial Zone contributes significantly to the area’s economy."
+        "description": "Hai Bà Trưng commemorates the Trưng Sisters, historical figures who led a rebellion against Chinese rule in the 1st century.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -2439,20 +2533,21 @@
           [106.7246138, 10.7520219]
         ]
       },
-      "id": "way/1267653587"
+      "id": "1267653587"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1267828447",
+        "id": "1267828447",
         "bicycle": "no",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Nguyễn Văn Linh Boulevard",
+        "name": "Cách Mạng Tháng Tám",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "This prominent primary road in District 7 is known for its modern infrastructure and business hubs, making it a key location for commerce and transit in Ho Chi Minh City, with various amenities lining its route."
+        "description": "Cách Mạng Tháng Tám refers to the August Revolution of 1945, which led to the foundation of the Democratic Republic of Vietnam.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -2461,16 +2556,17 @@
           [106.7258258, 10.75223]
         ]
       },
-      "id": "way/1267828447"
+      "id": "1267828447"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1271353073",
+        "id": "1271353073",
         "highway": "primary",
-        "name": "Huỳnh Tấn Phát Street",
+        "name": "Nam Kỳ Khởi Nghĩa",
         "oneway": "yes",
-        "description": "A significant road in District 7, Huỳnh Tấn Phát Street connects neighborhoods and features a variety of local dining options, enhancing the vibrant street life."
+        "description": "Nam Kỳ Khởi Nghĩa is named after the Southern Uprising of 1940 against French colonial forces.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -2480,16 +2576,17 @@
           [106.7277149, 10.7544235]
         ]
       },
-      "id": "way/1271353073"
+      "id": "1271353073"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1271396796",
+        "id": "1271396796",
         "highway": "primary",
-        "name": "Đường Huỳnh Tấn Phát",
+        "name": "Võ Văn Kiệt",
         "oneway": "yes",
-        "description": "This major roadway in District 7 is integral to local traffic, offering access to various shopping centers and cultural sites, blending modernity with traditional Saigon charm."
+        "description": "Võ Văn Kiệt is named after a prominent Vietnamese politician known for his economic reforms and modernization policies.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -2498,18 +2595,19 @@
           [106.7284578, 10.7526474]
         ]
       },
-      "id": "way/1271396796"
+      "id": "1271396796"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1283230939",
+        "id": "1283230939",
         "highway": "primary",
         "lanes": "3",
         "maxspeed": "60",
-        "name": "Nguyễn Văn Linh Boulevard",
+        "name": "Hàm Nghi",
         "oneway": "yes",
-        "description": "With three lanes, this bustling road in District 7 is a lifeline for the city, providing quick access to key districts and showcasing the dynamic urban landscape, marked by modern architecture."
+        "description": "Hàm Nghi is named after an emperor of Vietnam who led a resistance against French colonial forces in the late 1800s.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -2522,19 +2620,20 @@
           [106.7249236, 10.7520895]
         ]
       },
-      "id": "way/1283230939"
+      "id": "1283230939"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1296559747",
+        "id": "1296559747",
         "destination": "Cầu Phú Xuân 2",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Huỳnh Tấn Phát Street",
+        "name": "Pasteur",
         "oneway": "yes",
-        "description": "Another extension of Huỳnh Tấn Phát Street in District 7, it is essential for travelers heading toward Cầu Phú Xuân 2 and captures the vibrant essence of the local urban culture."
+        "description": "Pasteur is named after Louis Pasteur, the French scientist renowned for his discoveries in vaccination and pasteurization.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -2550,15 +2649,16 @@
           [106.7286577, 10.7500766]
         ]
       },
-      "id": "way/1296559747"
+      "id": "1296559747"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1312043915",
+        "id": "1312043915",
         "highway": "tertiary",
-        "name": "Lưu Trường Lưu Street",
-        "description": "Situated in District 4, Lưu Trường Lưu is a tertiary road characterized by its quieter atmosphere, lined with local houses and small businesses, reflecting a more traditional side of Saigon."
+        "name": "Phạm Ngũ Lão",
+        "description": "Phạm Ngũ Lão honors a celebrated general of the Trần dynasty, known for his military leadership against the Mongols.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -2570,16 +2670,17 @@
           [106.7279457, 10.755048]
         ]
       },
-      "id": "way/1312043915"
+      "id": "1312043915"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1326470018",
+        "id": "1326470018",
         "highway": "primary",
-        "name": "Nguyen Van Linh Boulevard",
+        "name": "Điện Biên Phủ",
         "oneway": "yes",
-        "description": "Located in District 7, Nguyen Van Linh Boulevard is a major thoroughfare that connects various commercial centers and residential areas. It is known for its bustling atmosphere with shopping malls and restaurants lining the street."
+        "description": "Named after the decisive battle of Điện Biên Phủ in 1954, which ended French colonial rule in Vietnam.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -2592,20 +2693,21 @@
           [106.724842, 10.7518371]
         ]
       },
-      "id": "way/1326470018"
+      "id": "1326470018"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1328576849",
+        "id": "1328576849",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
         "maxweight": "3.5",
-        "name": "Nguyen Van Linh Boulevard",
+        "name": "Phan Đình Phùng",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "This section of Nguyen Van Linh in District 7 features two lanes and a speed limit of 50 km/h. It's a vital route for both locals and visitors, offering access to modern urban developments, including shopping complexes."
+        "description": "Phan Đình Phùng was a celebrated Vietnamese revolutionary leader who resisted French colonization.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -2643,18 +2745,19 @@
           [106.7242786, 10.751306]
         ]
       },
-      "id": "way/1328576849"
+      "id": "1328576849"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1358978270",
+        "id": "1358978270",
         "destination": "xã Nhà Bè",
         "highway": "primary",
         "lanes": "1",
-        "name": "Nguyen Van Linh Boulevard",
+        "name": "Hoàng Diệu",
         "oneway": "yes",
-        "description": "Heading towards Xã Nhà Bè from District 7, this one-lane stretch of Nguyen Van Linh serves both commercial and residential traffic. The area is characterized by its proximity to several parks and river views."
+        "description": "Hoàng Diệu is remembered for his bravery as the governor who defended Hanoi from French forces in 1882.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -2666,20 +2769,21 @@
           [106.7285519, 10.7526475]
         ]
       },
-      "id": "way/1358978270"
+      "id": "1358978270"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1411090364",
+        "id": "1411090364",
         "bicycle": "no",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Nguyen Van Linh Boulevard",
+        "name": "Hai Bà Trưng",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "In District 7, this two-lane portion of Nguyen Van Linh permits speeds up to 60 km/h. It reflects the modern urban landscape with a mix of corporate offices and leisure facilities, making it a key artery of the city."
+        "description": "Hai Bà Trưng street is named after the legendary Trưng sisters who led a rebellion against Chinese domination in A.D. 40.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -2691,18 +2795,19 @@
           [106.7251973, 10.7518443]
         ]
       },
-      "id": "way/1411090364"
+      "id": "1411090364"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1412996540",
+        "id": "1412996540",
         "destination": "Khu Chế Xuất Tân Thuận",
         "highway": "tertiary",
         "lanes": "3",
-        "name": "Tan Thuan Street",
+        "name": "Cách Mạng Tháng Tám",
         "oneway": "yes",
-        "description": "Situated in District 7, Tan Thuan Street is a tertiary road that leads to the bustling export processing zones. It has three lanes and connects many industrial sites, contributing to the area's economic dynamism."
+        "description": "Named after the August Revolution in 1945 that led to Vietnamese independence from French rule.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -2712,17 +2817,18 @@
           [106.7291594, 10.7526741]
         ]
       },
-      "id": "way/1412996540"
+      "id": "1412996540"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1427271533",
+        "id": "1427271533",
         "highway": "primary",
         "lanes": "2",
-        "name": "Nguyen Van Linh Boulevard",
+        "name": "Nam Kỳ Khởi Nghĩa",
         "oneway": "yes",
-        "description": "This section of Nguyen Van Linh in District 7 features two lanes and carries a lot of traffic, as it underlines the importance of this road for commuters and businesses alike, interspersed with greenery and cityscape."
+        "description": "Nam Kỳ Khởi Nghĩa commemorates the Southern Uprising against colonial powers in 1940.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -2733,18 +2839,19 @@
           [106.7242786, 10.751306]
         ]
       },
-      "id": "way/1427271533"
+      "id": "1427271533"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1427271536",
+        "id": "1427271536",
         "highway": "primary",
         "lanes": "3",
         "maxspeed": "60",
-        "name": "Nguyen Van Linh Boulevard",
+        "name": "Võ Văn Kiệt",
         "oneway": "yes",
-        "description": "This three-lane stretch of Nguyen Van Linh in District 7 allows for speeds up to 60 km/h. It is one of the city's lifelines, integrating various urban functions and promoting a vibrant, fast-paced lifestyle."
+        "description": "This street celebrates Võ Văn Kiệt, the Prime Minister known for his economic reforms in Vietnam during the 1990s.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -2753,17 +2860,18 @@
           [106.72568, 10.7525152]
         ]
       },
-      "id": "way/1427271536"
+      "id": "1427271536"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1427271538",
+        "id": "1427271538",
         "highway": "primary",
-        "name": "Tan Thuan 2 Bridge",
+        "name": "Hàm Nghi",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "This vital connection in District 7, Tan Thuan 2 Bridge, is frequented by commuters traveling to and from industrial zones. It boasts an asphalt surface and provides scenic views of the surrounding environment."
+        "description": "Hàm Nghi was the 8th emperor of the Nguyễn Dynasty and known for his resistance against the French.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -2772,17 +2880,18 @@
           [106.7247046, 10.7520905]
         ]
       },
-      "id": "way/1427271538"
+      "id": "1427271538"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1427271541",
+        "id": "1427271541",
         "highway": "primary",
-        "name": "Tan Thuan 2 Bridge",
+        "name": "Pasteur",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "The Tan Thuan 2 Bridge is another crucial infrastructural component situated in District 7, linking various areas of the city. Its pathway is always bustling with both vehicle and pedestrian traffic."
+        "description": "Pasteur street is named after the French microbiologist Louis Pasteur, reflecting Saigon's French colonial history.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -2791,20 +2900,21 @@
           [106.7247053, 10.7519465]
         ]
       },
-      "id": "way/1427271541"
+      "id": "1427271541"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1427271542",
+        "id": "1427271542",
         "bicycle": "no",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Nguyen Van Linh Boulevard",
+        "name": "Phạm Ngũ Lão",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "In District 7, this two-lane segment of Nguyen Van Linh has a maximum speed limit of 60 km/h. It serves as a primary route for access to major shopping destinations and business districts, creating a dynamic urban environment."
+        "description": "Named after a general of the Trần Dynasty, Phạm Ngũ Lão is known as a vibrant backpacker district in Saigon.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -2813,18 +2923,19 @@
           [106.7243561, 10.7513728]
         ]
       },
-      "id": "way/1427271542"
+      "id": "1427271542"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1427271543",
+        "id": "1427271543",
         "highway": "primary",
         "lanes": "3",
         "maxspeed": "60",
-        "name": "Nguyễn Văn Linh",
+        "name": "Điện Biên Phủ",
         "oneway": "yes",
-        "description": "Nguyen Van Linh Street is located in District 7 (Quận 7) and serves as a major thoroughfare connecting the city with the expanding urban landscape of Phu My Hung. This bustling street is lined with modern shopping centers and is known for its vibrant atmosphere and contemporary architecture."
+        "description": "Named after the famous battle in 1954 where Vietnamese forces defeated the French, marking the end of French colonial rule in Indochina.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -2837,19 +2948,20 @@
           [106.7250899, 10.7519691]
         ]
       },
-      "id": "way/1427271543"
+      "id": "1427271543"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1427271548",
+        "id": "1427271548",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "30",
-        "name": "Đường Nhánh Cầu Tân Thuận 2",
+        "name": "Phan Đình Phùng",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "Located in District 7 (Quận 7), this secondary road is part of the Tan Thuan Export Processing Zone, which is pivotal for local commerce. The serene environment here contrasts with the dynamic economic activities, offering both business and residential areas."
+        "description": "This street pays homage to a prominent mandarin who led a resistance against French colonial forces in the late 19th century.",
+        "label": "Phan Đình Phùng"
       },
       "geometry": {
         "type": "LineString",
@@ -2862,20 +2974,21 @@
           [106.7208779, 10.7549852]
         ]
       },
-      "id": "way/1427271548"
+      "id": "1427271548"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1427277563",
+        "id": "1427277563",
         "bicycle": "no",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Nguyễn Văn Linh",
+        "name": "Hoàng Diệu",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "Nguyen Van Linh Street, also situated in District 7 (Quận 7), is integral to the flow of traffic in this region. The street offers easy access to the bustling commercial areas nearby, characterized by a mix of residential and business developments."
+        "description": "Named for one of the two dedicated officials who played a significant role during the French colonial era in Hanoi.",
+        "label": "Hoàng Diệu"
       },
       "geometry": {
         "type": "LineString",
@@ -2886,19 +2999,20 @@
           [106.7278984, 10.7525297]
         ]
       },
-      "id": "way/1427277563"
+      "id": "1427277563"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1427277565",
+        "id": "1427277565",
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "30",
-        "name": "Nguyễn Văn Linh",
+        "name": "Hai Bà Trưng",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "This segment of Nguyen Van Linh Street in District 7 (Quận 7) showcases a quieter side of the thoroughfare with local shops and cafes catering to residents. The street plays a vital role in the community's daily life."
+        "description": "This street commemorates the two legendary Trưng sisters who led a rebellion against Chinese rule in the first century.",
+        "label": "Hai Bà Trưng"
       },
       "geometry": {
         "type": "LineString",
@@ -2908,16 +3022,17 @@
           [106.7238426, 10.7527768]
         ]
       },
-      "id": "way/1427277565"
+      "id": "1427277565"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1432525474",
+        "id": "1432525474",
         "highway": "unclassified",
         "oneway": "yes",
-        "name": "UGU",
-        "description": "UGU Street is an unclassified road likely in District 2 (Quận 2), often less traveled. Surrounded by local homes and small businesses, it reflects the residential charm of the area, offering a peaceful retreat from the busier main roads."
+        "name": "Cách Mạng Tháng Tám",
+        "description": "Named for the August Revolution in 1945 which led to the declaration of independence from French colonial rule.",
+        "label": "Cách Mạng Tháng Tám"
       },
       "geometry": {
         "type": "LineString",
@@ -2926,20 +3041,21 @@
           [106.7251973, 10.7518443]
         ]
       },
-      "id": "way/1432525474"
+      "id": "1432525474"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1432525789",
+        "id": "1432525789",
         "bicycle": "no",
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "60",
-        "name": "Nguyễn Văn Linh",
+        "name": "Nam Kỳ Khởi Nghĩa",
         "oneway": "yes",
         "surface": "asphalt",
-        "description": "This section of Nguyen Van Linh Street in District 7 (Quận 7) is bustling and vital for transportation. It connects various commercial centers and is known for its accessibility to amenities, contributing to the area's urban appeal."
+        "description": "This street honors the Nam Kỳ Uprising, an important anti-French revolt in the southern region of Vietnam in 1940.",
+        "label": "Nam Kỳ Khởi Nghĩa"
       },
       "geometry": {
         "type": "LineString",
@@ -2949,16 +3065,17 @@
           [106.7254552, 10.7520382]
         ]
       },
-      "id": "way/1432525789"
+      "id": "1432525789"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1444924067",
+        "id": "1444924067",
         "highway": "residential",
-        "name": "Đường Sáng Tạo",
+        "name": "Võ Văn Kiệt",
         "oneway": "no",
-        "description": "Sang Tao Street, located in District 8 (Quận 8), resonates with a residential atmosphere, showcasing local Vietnamese culture through its modest homes and community interactions. It's a pleasant area for strolls and casual gatherings."
+        "description": "Named after a key figure in Vietnamese politics who served as Prime Minister from 1991 to 1997, known for economic reforms.",
+        "label": "Võ Văn Kiệt"
       },
       "geometry": {
         "type": "LineString",
@@ -2969,15 +3086,16 @@
           [106.7474174, 10.7669615]
         ]
       },
-      "id": "way/1444924067"
+      "id": "1444924067"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1444924068",
+        "id": "1444924068",
         "highway": "residential",
-        "name": "KAM",
-        "description": "KAM Street is a small residential street in District 8 (Quận 8) characterized by its intimate community vibe. Nearby markets and local eateries add to the charm and accessibility for families living in the area."
+        "name": "Hàm Nghi",
+        "description": "This street is named after the young emperor Hàm Nghi, who was involved in the Cần Vương movement against French rule.",
+        "label": "Hàm Nghi"
       },
       "geometry": {
         "type": "LineString",
@@ -2987,15 +3105,16 @@
           [106.7482112, 10.7674126]
         ]
       },
-      "id": "way/1444924068"
+      "id": "1444924068"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1444924069",
+        "id": "1444924069",
         "highway": "residential",
-        "name": "Gage",
-        "description": "Gage Street, also in District 8 (Quận 8), features a peaceful residential environment with close-knit households. It is a reflection of daily life in Saigon away from the hustle and bustle of the central districts."
+        "name": "Pasteur",
+        "description": "Named in honor of Louis Pasteur, the renowned French scientist who contributed to Vietnam's development in health and medicine.",
+        "label": "Pasteur"
       },
       "geometry": {
         "type": "LineString",
@@ -3004,15 +3123,16 @@
           [106.7474174, 10.7669615]
         ]
       },
-      "id": "way/1444924069"
+      "id": "1444924069"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1464435730",
+        "id": "1464435730",
         "highway": "residential",
-        "name": "Đường số 2",
-        "description": "So 2 Street is located in District 2 (Quận 2). This residential pathway is quiet and lined with homes, making it an ideal spot for families. It embodies the suburban charm of the city while still being close to urban amenities."
+        "name": "Phạm Ngũ Lão",
+        "description": "This street is a hub for backpackers, named after a national hero and general who served under the Trần Dynasty.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -3021,16 +3141,17 @@
           [106.7309455, 10.7538979]
         ]
       },
-      "id": "way/1464435730"
+      "id": "1464435730"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1464435731",
+        "id": "1464435731",
         "access": "no",
         "highway": "residential",
-        "name": "Street 2",
-        "description": "Situated in District 2 (Quận 2), Street 2 is a quiet residential road that reflects the growing urban development of this area. Close to popular landmarks like the Vincom Mega Mall Thao Dien and the scenic Thao Dien neighborhood, it offers a peaceful atmosphere amidst increasing urbanization."
+        "name": "Phạm Ngũ Lão",
+        "description": "A vibrant street in District 1, Phạm Ngũ Lão is known as the heart of the backpacker area, bustling with tourists and local cuisine spots.",
+        "label": "Phạm Ngũ Lão"
       },
       "geometry": {
         "type": "LineString",
@@ -3039,15 +3160,16 @@
           [106.7315264, 10.7541589]
         ]
       },
-      "id": "way/1464435731"
+      "id": "1464435731"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1464435732",
+        "id": "1464435732",
         "highway": "tertiary",
-        "name": "Lien Cang A5 Street",
-        "description": "Found in District 9 (Quận 9), Lien Cang A5 Street is a tertiary road that connects several residential communities. This area is known for its greenery and proximity to tech parks, creating a blend of modern living and natural surroundings. The street is a vital link for locals heading towards various educational and technological hubs."
+        "name": "Điện Biên Phủ",
+        "description": "Named after the historical battle, Điện Biên Phủ is a major thoroughfare connecting several districts and rich in both history and commerce.",
+        "label": "Điện Biên Phủ"
       },
       "geometry": {
         "type": "LineString",
@@ -3056,7 +3178,7 @@
           [106.731467, 10.7558393]
         ]
       },
-      "id": "way/1464435732"
+      "id": "1464435732"
     }
   ]
 }
