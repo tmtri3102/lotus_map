@@ -81,7 +81,7 @@ class StreetViewControl {
     this._btn.style.alignItems = "center";
     this._btn.style.cursor = "pointer";
     this._btn.innerHTML = `
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M4 3h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-5l-3 3-3-3H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke-linecap="round"/>
         <rect x="7" y="7" width="10" height="2" fill="currentColor" stroke="none"/>
         <rect x="7" y="11" width="6" height="2" fill="currentColor" stroke="none"/>
@@ -106,8 +106,8 @@ class StreetViewControl {
   }
 
   _updateStyle() {
-    this._btn.style.backgroundColor = isStreetViewActive ? "#e6f2ff" : "";
-    this._btn.style.color = isStreetViewActive ? "#2196F3" : "#333";
+    this._btn.style.backgroundColor = isStreetViewActive ? "#3ab2e5" : "white";
+    this._btn.style.color = isStreetViewActive ? "white" : "#3ab2e5";
   }
 
   _toggleLayer() {
@@ -288,17 +288,17 @@ map.on("load", async () => {
 
     if (geoPopup) geoPopup.remove();
     const p = feature.properties;
-    geoPopup = new mapboxgl.Popup()
+    geoPopup = new mapboxgl.Popup({ maxWidth: "280px" })
       .setLngLat(location)
       .setHTML(
-        `<div style="display: flex; flex-direction: column; gap: 4px; min-width: 220px; padding: 6px;">
-          <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 2px;">
-            <h3 style="margin: 0; font-size: 20px; font-weight: 800; color: #111; letter-spacing: -0.025em; font-family: -apple-system, sans-serif;">${p.name || "Unnamed"}</h3>
-            <div id="play-btn-${p.id || p["@id"]}" class="play-button" style="cursor: pointer; color: #2196F3; flex-shrink: 0; display: flex; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); filter: drop-shadow(0 2px 4px rgba(33, 150, 243, 0.2));" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" onclick="togglePlay('${p.id || p["@id"]}', \`${p.description || ""}\`)">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm36.44-94.66-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17Z"></path></svg>
+        `<div style="display: flex; flex-direction: column; gap: 8px; width: 240px;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <h3 style="margin: 0; font-size: 18px; font-weight: 800; color: #111; letter-spacing: -0.025em; font-family: -apple-system, sans-serif; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${p.name || "Unnamed"}</h3>
+            <div id="play-btn-${p.id || p["@id"]}" class="play-button" style="cursor: pointer; color: #2196F3; flex-shrink: 0; display: flex; align-items: center; transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1); filter: drop-shadow(0 2px 4px rgba(33, 150, 243, 0.2));" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" onclick="togglePlay('${p.id || p["@id"]}', \`${p.description || ""}\`)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm36.44-94.66-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17Z"></path></svg>
             </div>
           </div>
-          <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #334155; font-weight: 500;">${p.description || "A charming street with a unique story waiting to be discovered."}</p>
+          <p style="margin: 0; font-size: 13px; line-height: 1.55; color: #334155; font-weight: 500;">${p.description || "A charming street with a unique story waiting to be discovered."}</p>
         </div>`,
       )
       .addTo(map);
