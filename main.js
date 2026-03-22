@@ -293,8 +293,8 @@ map.on("load", async () => {
       .setLngLat(location)
       .setHTML(
         `<div style="display: flex; flex-direction: column; gap: 8px; width: 240px;">
-          <div style="display: flex; align-items: center; gap: 8px;">
-            <h3 style="margin: 0; font-size: 18px; font-weight: 800; color: #111; letter-spacing: -0.025em; font-family: 'Roboto', -apple-system, sans-serif; text-transform: uppercase; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${p.name || "Unnamed"}</h3>
+          <div style="display: flex; align-items: center; gap: 8px; padding: 4px 0">
+            <h3 style="margin: 0; font-size: 18px; line-height: 1.2; font-weight: 800; color: #111; letter-spacing: -0.025em; font-family: 'Roboto', -apple-system, sans-serif; text-transform: uppercase; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 2px 0;">${p.name || "Unnamed"}</h3>
             <div id="play-btn-${p.id || p["@id"]}" class="play-button" style="cursor: pointer; color: #2196F3; flex-shrink: 0; display: flex; align-items: center; transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1); filter: drop-shadow(0 2px 4px rgba(33, 150, 243, 0.2));" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" onclick="togglePlay('${p.id || p["@id"]}', \`${p.description || ""}\`)">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm36.44-94.66-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17Z"></path></svg>
             </div>
